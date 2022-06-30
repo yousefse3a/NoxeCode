@@ -1,0 +1,17 @@
+@import "../../index.scss";
+
+.social{
+    text-decoration: none;
+    color: white;
+
+}
+.Navbar{
+    background-color: $bgColor;
+    box-shadow: 0px 0px 3px $navColor;
+    z-index: 5555;
+}
+.Loge{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 40px;
+}

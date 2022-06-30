@@ -1,0 +1,36 @@
+@import "../../index.scss";
+
+.headTreanding{
+    padding: 10px;
+    color: $fontColor;
+}
+.headTreanding::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height:$borderHeight;
+    background-color: $borderColor;
+}
+.headTreanding::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:$borderHeight;
+    background-color: $borderColor;
+}
+.pp{
+    color: $secondFontColor;
+}
+.evaluation{
+    border-radius: 5px;
+    background-color: $lightBgColor;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1%;
+    right: -4%;
+}
